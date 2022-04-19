@@ -17,16 +17,16 @@
     height: 70px;
 }
 
-#matches-section .class-item > img {
+#team-section .class-item > img {
     width: 220px;
 }
 
-#matches-section .class-item-text {
+#team-section .class-item-text {
     text-align: center;
     width: 100%;
 }
 
-#matches-section .class-item .class-item-text h2 {
+#team-section .class-item .class-item-text h2 {
     font-size: 26px;
     margin-bottom: 0px;
     margin: 20px auto;
@@ -67,7 +67,7 @@
     
     #contact-section h3 { font-size: 1.40rem !important; }
     
-    #matches-section .class-item .class-item-text h2 {
+    #team-section .class-item .class-item-text h2 {
         font-size: 23px;
         margin-bottom: 0px;
         margin: 7.5px auto;
@@ -80,7 +80,7 @@
 }
 
 @media screen and (max-width: 464px) {
-    #matches-section .class-item > img {
+    #team-section .class-item > img {
         width: 35%;
     }
 
@@ -106,17 +106,17 @@
         font-size: 19px !important;
     }
     
-    #nav-sunday h2, 
-    #nav-monday h2, 
-    #nav-tuesday h2, 
-    #nav-wednesday h2, 
-    #nav-thursday h2, 
-    #nav-friday h2, 
-    #nav-saturday h2 {
+    #nav-content h2, 
+    #nav-design h2, 
+    #nav-decoration h2, 
+    #nav-documentation h2, 
+    #nav-hospitlity h2, 
+    #nav-hosting h2, 
+    #nav-logistics h2 {
         font-size: 20px !important;
     } 
     
-    #matches-section .class-item .class-item-text h2 { font-size: 23px !important; }
+    #team-section .class-item .class-item-text h2 { font-size: 23px !important; }
     
     body { font-size: 0.925rem; }
     
@@ -132,19 +132,19 @@
     
     .ftco-feature-1 h2 { font-size: 20px !important; }
     
-    #nav-sunday h2, 
-    #nav-monday h2, 
-    #nav-tuesday h2, 
-    #nav-wednesday h2, 
-    #nav-thursday h2, 
-    #nav-friday h2, 
-    #nav-saturday h2 {
+    #nav-content h2, 
+    #nav-design h2, 
+    #nav-decoration h2, 
+    #nav-documentation h2, 
+    #nav-hospitlity h2, 
+    #nav-hosting h2, 
+    #nav-logistics h2 {
         font-size: 22.5px !important;
     } 
     
     #contact-section h3 { font-size: 1.90rem !important; }
     
-    #matches-section .class-item .class-item-text h2 { font-size: 26px !important; }
+    #team-section .class-item .class-item-text h2 { font-size: 26px !important; }
     
     body { font-size: 1.0rem; !important}
     
@@ -202,7 +202,7 @@
 }
 
 @media (max-width: 402px) {
-    .days li a {
+    .team-list li a {
         padding: 7px 0px;
     }
 }

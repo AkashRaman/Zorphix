@@ -2,6 +2,7 @@ $(document).ready(function() {
     var deviceWidth = $(window).width();
     var deviceHeight = $(window).height();
     var silambattamHeight = $('#silambattam').height();
+    var businessEvent2 = $('#business-event-2').height();
     if ( deviceWidth <= "767") {
         $('#summerCamp').waypoint(function(direction) {
             if( direction == "down") {
@@ -78,99 +79,110 @@ $(document).ready(function() {
         }, {
             offset: "50%"
         });
-        
-        $('#matches-banner').waypoint(function(direction) {
+        $('#business-event-2').waypoint(function(direction) {
             if( direction == "down") {
+                $('#business-event-2').addClass('mobileEffect');
                 $('#silambattam').removeClass('mobileEffect'); 
             } else {
+                $('#business-event-2').removeClass('mobileEffect'); 
                 $('#silambattam').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
         
-        $('#matchesbox-1').waypoint(function(direction) {
+        $('#team-banner').waypoint(function(direction) {
             if( direction == "down") {
-                $('#matchesbox-1').addClass('mobileEffect'); 
+                $('#business-event-2').removeClass('mobileEffect'); 
             } else {
-                $('#matchesbox-1').removeClass('mobileEffect'); 
+                $('#business-event-2').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
-        $('#matchesbox-2').waypoint(function(direction) {
+        
+        $('#teambox-1').waypoint(function(direction) {
             if( direction == "down") {
-                $('#matchesbox-2').addClass('mobileEffect');
-                $('#matchesbox-1').removeClass('mobileEffect'); 
+                $('#teambox-1').addClass('mobileEffect'); 
             } else {
-                $('#matchesbox-2').removeClass('mobileEffect'); 
-                $('#matchesbox-1').addClass('mobileEffect'); 
+                $('#teambox-1').removeClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
-        $('#matchesbox-3').waypoint(function(direction) {
+        $('#teambox-2').waypoint(function(direction) {
             if( direction == "down") {
-                $('#matchesbox-3').addClass('mobileEffect');
-                $('#matchesbox-2').removeClass('mobileEffect'); 
+                $('#teambox-2').addClass('mobileEffect');
+                $('#teambox-1').removeClass('mobileEffect'); 
             } else {
-                $('#matchesbox-3').removeClass('mobileEffect'); 
-                $('#matchesbox-2').addClass('mobileEffect'); 
+                $('#teambox-2').removeClass('mobileEffect'); 
+                $('#teambox-1').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
-        $('#matchesbox-4').waypoint(function(direction) {
+        $('#teambox-3').waypoint(function(direction) {
             if( direction == "down") {
-                $('#matchesbox-4').addClass('mobileEffect');
-                $('#matchesbox-3').removeClass('mobileEffect'); 
+                $('#teambox-3').addClass('mobileEffect');
+                $('#teambox-2').removeClass('mobileEffect'); 
             } else {
-                $('#matchesbox-4').removeClass('mobileEffect'); 
-                $('#matchesbox-3').addClass('mobileEffect'); 
+                $('#teambox-3').removeClass('mobileEffect'); 
+                $('#teambox-2').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
-        $('#matchesbox-5').waypoint(function(direction) {
+        $('#teambox-4').waypoint(function(direction) {
             if( direction == "down") {
-                $('#matchesbox-5').addClass('mobileEffect');
-                $('#matchesbox-4').removeClass('mobileEffect'); 
+                $('#teambox-4').addClass('mobileEffect');
+                $('#teambox-3').removeClass('mobileEffect'); 
             } else {
-                $('#matchesbox-5').removeClass('mobileEffect'); 
-                $('#matchesbox-4').addClass('mobileEffect'); 
+                $('#teambox-4').removeClass('mobileEffect'); 
+                $('#teambox-3').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
-        $('#matchesbox-6').waypoint(function(direction) {
+        $('#teambox-5').waypoint(function(direction) {
             if( direction == "down") {
-                $('#matchesbox-6').addClass('mobileEffect');
-                $('#matchesbox-5').removeClass('mobileEffect'); 
+                $('#teambox-5').addClass('mobileEffect');
+                $('#teambox-4').removeClass('mobileEffect'); 
             } else {
-                $('#matchesbox-6').removeClass('mobileEffect'); 
-                $('#matchesbox-5').addClass('mobileEffect'); 
+                $('#teambox-5').removeClass('mobileEffect'); 
+                $('#teambox-4').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
-        $('#matchesbox-7').waypoint(function(direction) {
+        $('#teambox-6').waypoint(function(direction) {
             if( direction == "down") {
-                $('#matchesbox-7').addClass('mobileEffect');
-                $('#matchesbox-6').removeClass('mobileEffect'); 
+                $('#teambox-6').addClass('mobileEffect');
+                $('#teambox-5').removeClass('mobileEffect'); 
             } else {
-                $('#matchesbox-7').removeClass('mobileEffect'); 
-                $('#matchesbox-6').addClass('mobileEffect'); 
+                $('#teambox-6').removeClass('mobileEffect'); 
+                $('#teambox-5').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
-        $('#matchesbox-8').waypoint(function(direction) {
+        $('#teambox-7').waypoint(function(direction) {
             if( direction == "down") {
-                $('#matchesbox-8').addClass('mobileEffect');
-                $('#matchesbox-7').removeClass('mobileEffect'); 
+                $('#teambox-7').addClass('mobileEffect');
+                $('#teambox-6').removeClass('mobileEffect'); 
             } else {
-                $('#matchesbox-8').removeClass('mobileEffect'); 
-                $('#matchesbox-7').addClass('mobileEffect'); 
+                $('#teambox-7').removeClass('mobileEffect'); 
+                $('#teambox-6').addClass('mobileEffect'); 
+            }
+        }, {
+            offset: "50%"
+        });
+        $('#teambox-8').waypoint(function(direction) {
+            if( direction == "down") {
+                $('#teambox-8').addClass('mobileEffect');
+                $('#teambox-7').removeClass('mobileEffect'); 
+            } else {
+                $('#teambox-8').removeClass('mobileEffect'); 
+                $('#teambox-7').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
@@ -178,9 +190,9 @@ $(document).ready(function() {
         
         $('#classes-banner').waypoint(function(direction) {
             if( direction == "down") {
-                $('#matchesbox-8').removeClass('mobileEffect'); 
+                $('#teambox-8').removeClass('mobileEffect'); 
             } else {
-                $('#matchesbox-8').addClass('mobileEffect'); 
+                $('#teambox-8').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
