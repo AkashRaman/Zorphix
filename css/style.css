@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5,
 
 .btn-modal {
     font-size: 18px;
-    background-color: #ffffff;
+    background-color: #fbf665;
     border-radius: 4px;
     margin-bottom: 30px;
     padding: 5px 10px;
@@ -625,13 +625,13 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
         padding: 5px 20px;
-        color: #000;
+        color: #fff;
         display: inline-block;
         text-decoration: none !important; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
-          color: #ef5350 ; }
+          color: #fd5949 ; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
-          background: #ef5350 ; }
+          background: #fd5949; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
@@ -805,11 +805,10 @@ h1, h2, h3, h4, h5,
 
 .section-heading .subheading {
   font-size: 1.6rem; 
-  border-bottom: 2px solid #73fffe;
   padding: 0 10px;}
 
 .section-heading .heading {
-  color: #fbf665 ;
+  color: #ef5350 ;
   font-size: 2.5rem;
   font-weight: 900; }
 
@@ -818,6 +817,7 @@ h1, h2, h3, h4, h5,
   overflow: hidden;
   margin-bottom: 30px;
   position: relative;
+  background-color: #fbf665;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
   z-index: 1; }
@@ -850,13 +850,20 @@ h1, h2, h3, h4, h5,
       color: #aeaeae; }
     .class-item .class-item-text span {
       font-size: 16px; }
+    .class-item p{
+      color: #000;
+    }
   .class-item.hover:hover {
     z-index: 2;
-    background: #ef5350 ; }
+    background: #fd5949 ; }
+    .class-item.hover:hover h2{
+      transition: all 0.3s;
+    }
     .class-item.hover:hover h2 a {
       color: #fff; }
     .class-item.hover:hover p, .class-item.hover:hover span {
-      color: rgba(255, 255, 255, 0.6); }
+      color: rgba(255, 255, 255); 
+      transition: all 0.3s;}
 
 .team-list {
   width: 100%;
@@ -1001,6 +1008,10 @@ h1, h2, h3, h4, h5,
     color: #ffffff !important;
 }
 
+.heading{
+  
+}
+
 #about-section .heading{
   color: #E11940;
   /* background: linear-gradient(90deg, rgba(7,0,30,1) 0%, rgba(225,25,64,1) 32%, rgba(27,2,33,1) 64%); */
@@ -1009,6 +1020,48 @@ h1, h2, h3, h4, h5,
 #about-section h3{
   color: #73fffe;
 }
+
+#about-section .subheading{
+  border-bottom: 2px solid #73fffe;
+}
+
+#events-section .heading{
+  color: #fbf665;
+  /* background: linear-gradient(90deg, rgba(7,0,30,1) 0%, rgba(225,25,64,1) 32%, rgba(27,2,33,1) 64%); */
+}
+#events-section h3{
+  color: #fd5949!important;
+}
+#events-section .subheading{
+  border-bottom: 2px solid #fd5949;
+}
+
+#team-section .heading{
+  background-color: red;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #e2dddf, #b0acb0);
+  width: fit-content;
+  margin: 0 auto;
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent
+  /* -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #05d9e8;
+  text-shadow: 2px 2px 2px #005678;
+  letter-spacing: 2px; */
+  
+}
+#team-section .subheading{
+  border-bottom: 2px solid #85ebd9;
+}
+#team-section h3{
+  color: #fe00fe!important;
+}
+
 .borderRight{
   border-right: 3px solid #E11940;
   padding: 0 10px 10px 0;
