@@ -253,3 +253,15 @@ body{
     margin: 5px;
     padding: 10px 20px;
 }
+
+
+@media only screen and (max-width: 992px) {
+    .mobile-box{
+        margin: 0 auto!important;
+    }
+
+    .mobile-box-hide{
+        flex: 0!important;
+        padding: 0!important;
+    }
+}
