@@ -5,7 +5,7 @@
 }
 
 .landing-page-logo {
-    height: 350px;
+    max-width: 350px;
 }
 
 .landing-page-logo-wrapper {
@@ -264,4 +264,18 @@ body{
         flex: 0!important;
         padding: 0!important;
     }
+}
+
+@media screen and (max-width: 425px) {
+    .landing-page-logo {
+        height: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .landing-page-logo {
+        height: 75px;
+    }
+    
 }

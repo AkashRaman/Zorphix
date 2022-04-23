@@ -64,14 +64,14 @@
       </div>
       <div class="site-mobile-menu-body">
           <ul class="site-nav-wrap">
-                <li><a href="#home-section" class="nav-link site-menu-toggle js-menu-toggle">Home</a></li>
-                <li><a href="#about-section" class="nav-link site-menu-toggle js-menu-toggle">About</a></li>
-                <li><a href="#events-section" class="nav-link site-menu-toggle js-menu-toggle">Events</a></li>
-                <li><a href="#team-section" class="nav-link site-menu-toggle js-menu-toggle">Team</a></li>
+                <li><a href="#home-section" class="nav-link site-menu-toggle js-menu-toggle" id="home-link-mobile">Home</a></li>
+                <li><a href="#about-section" class="nav-link site-menu-toggle js-menu-toggle" id="about-link-mobile">About</a></li>
+                <li><a href="#events-section" class="nav-link site-menu-toggle js-menu-toggle" id="events-link-mobile">Events</a></li>
+                <li><a href="#team-section" class="nav-link site-menu-toggle js-menu-toggle" id="team-link-mobile">Team</a></li>
                 <!--
                 <li><a href="#trainer-section" class="nav-link site-menu-toggle js-menu-toggle">Trainers</a></li>
                 <li><a href="#gallery-section" class="nav-link site-menu-toggle js-menu-toggle">Gallery</a></li>-->
-                <li><a href="#contact-section" class="nav-link site-menu-toggle js-menu-toggle">Contact</a></li>
+                <li><a href="#contact-section" class="nav-link site-menu-toggle js-menu-toggle" id="contact-link-mobile">Contact</a></li>
           </ul>
       </div>
     </div>
@@ -93,7 +93,7 @@
                 <!--
                 <li><a href="#trainer-section" class="nav-link">Trainers</a></li>
                 <li><a href="#gallery-section" class="nav-link">Gallery</a></li>-->
-                <li><a href="#contact-section" class="nav-link" id="team-link">Contact</a></li>
+                <li><a href="#contact-section" class="nav-link" id="contact-link">Contact</a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle float-right"><span
@@ -116,12 +116,12 @@
           <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
             <div class="row">
               <div class="col-lg-12 mx-auto text-center">
-                <h1 id="welcome-text" class="mb-3 center">Welcome to AMRFC</h1>
+                <h1 id="welcome-text" class="mb-3 center">Welcome to Zorphix</h1>
               </div>
             </div>
             <div class="row m-2 align-items-center">
               <div class="col-lg-4">
-                <img src="images/amrfc_logo.png" class="landing-page-logo center">
+                <img src="images/zorphix-logo.svg" class="landing-page-logo center">
               </div>
 
               <div class="col-lg-4">
@@ -129,7 +129,7 @@
               </div>
 
               <div class="col-lg-4">
-                <img src="images/rabonna_logo.png" class="landing-page-logo center">
+                <!-- <img src="images/rabonna_logo.png" class="landing-page-logo center"> -->
               </div>
             </div>
             <div class="row">
@@ -677,7 +677,7 @@
     </div>
   </div>-->
 
-  <div class="site-section bg-light contact-wrap" id="contact-section">
+  <div class="site-section bg-light" id="contact-section">
     <div class="container">
 
       <div class="row justify-content-center text-center mb-5">
@@ -872,7 +872,7 @@
 
       </div>
 
-      <div class="row pt-5 mt-5 text-center">
+      <div class="row text-center">
         <div class="col-md-12">
           <div class=" pt-5">
             <p class="text-white">
@@ -928,7 +928,7 @@
   *****************************************************/
   eventsData = {
     "technicalEvent1": {
-      "title": "Summer Camp",
+      "title": "Technical Event 1",
       "preText": "Classes start May 4th",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imageURL": "https://www.fonewalls.com/wp-content/uploads/Tree-Summer-Grass-Wallpaper-1080x1920.jpg",
@@ -959,7 +959,7 @@
       </div>`
     },
     "technicalEvent2": {
-      "title": "technicalEvent2",
+      "title": "Technical Event 2",
       "preText": "24 hrs slot bookings open",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imageURL": "https://images.unsplash.com/photo-1552667466-07770ae110d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
@@ -1021,7 +1021,7 @@
       </div>`
     },
     "nonTechnicalEvent1": {
-      "title": "nonTechnicalEvent1",
+      "title": "Non Technical Event 1",
       "preText": "",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imageURL": "https://img.freepik.com/free-photo/women-leggings-wearing-rollerskates_23-2147654930.jpg?size=626&ext=jpg",
@@ -1040,7 +1040,7 @@
       </div>`
     },
     "nonTechnicalEvent2": {
-      "title": "nonTechnicalEvent2",
+      "title": "Non Technical Event 2",
       "preText": "",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imageURL": "https://www.allamericantraining.com/wp-content/uploads/2018/06/Jump-Rope.jpg",
@@ -1059,7 +1059,7 @@
       </div>`
     },
     "nonTechnicalEvent3": {
-      "title": "nonTechnicalEvent3",
+      "title": "Non Technical Event 3",
       "preText": "",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imageURL": "https://ch20webmaster.com/wp-content/uploads/2018/01/nonTechnicalEvent3-Phone-Wallpapers-Ch35s.jpg",
@@ -1078,7 +1078,7 @@
       </div>`
     },
     "businessEvent1": {
-      "title": "businessEvent1",
+      "title": "Business Event 1",
       "preText": "",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imageURL": "https://media.gqindia.com/wp-content/uploads/2018/01/Silambam-866x956.jpg",
@@ -1097,7 +1097,7 @@
       </div>`
     },
     "businessEvent2": {
-      "title": "businessEvent2",
+      "title": "Business Event 2",
       "preText": "",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imageURL": "https://media.gqindia.com/wp-content/uploads/2018/01/Silambam-866x956.jpg",
@@ -1116,7 +1116,7 @@
       </div>`
     },
     "businessEvent3": {
-      "title": "businessEvent3",
+      "title": "Business Event 3",
       "preText": "",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imageURL": "https://media.gqindia.com/wp-content/uploads/2018/01/Silambam-866x956.jpg",

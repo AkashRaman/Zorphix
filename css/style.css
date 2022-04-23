@@ -33,7 +33,11 @@ h1, h2, h3, h4, h5,
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color: #000; }
 
-#contact-section h3 { font-size: 1.90rem !important; }
+#contact-section h3 { 
+  font-size: 1.50rem !important; 
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300!important;
+  color: #e2dddf!important;}
 
 .border-2 {
   border-width: 2px; }
@@ -460,12 +464,12 @@ h1, h2, h3, h4, h5,
       color: #000; }
 
 .site-mobile-menu {
-  width: 300px;
+  width: 150px;
   position: fixed;
   right: 0;
   z-index: 2000;
   padding-top: 20px;
-  background: #fff;
+  background: #000812;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   transform: translateX(110%);
@@ -522,7 +526,7 @@ h1, h2, h3, h4, h5,
       padding: 10px 20px;
       display: block;
       position: relative;
-      color: #212529; }
+      color: #fff; }
       .site-mobile-menu .site-nav-wrap a:hover {
         color: #ef5350 ; }
     .site-mobile-menu .site-nav-wrap li {
@@ -620,8 +624,6 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     background-image: linear-gradient(90deg, rgba(255,255,255,1) 3%, rgba(255,254,165,1) 12%, rgba(243,115,74,1) 19%, rgba(7,0,30,1) 41%, rgba(0, 8, 18,1) 45%, rgba(3,3,6,1) 86%,rgba(3,3,6,1) 97%);}
-    .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle > span:before {
-      color: #000 !important; }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
       color: #000; }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li {
@@ -926,7 +928,7 @@ h1, h2, h3, h4, h5,
       text-decoration: none; }
 
 .footer-section {
-  padding: 7em 0; }
+  padding: 3em 0; }
   .footer-section p {
     font-size: 1rem; }
   .footer-section h3 {
@@ -965,7 +967,7 @@ h1, h2, h3, h4, h5,
   padding-bottom: 8rem !important; }
 
 .footer-section {
-  padding-top: 12rem !important; }
+  padding-top: 3rem !important; }
 
 .fa {
   padding: 10px;
@@ -1001,7 +1003,7 @@ h1, h2, h3, h4, h5,
 /* hovers */
 
 .mobileEffect {
-    background-color: #ef5350 !important;
+    background-color: #fd5949!important;
     color: #ffffff;
 }
 
@@ -1040,7 +1042,7 @@ h1, h2, h3, h4, h5,
 }
 
 #team-section .heading{
-  color: #fc2b17;
+  color: #2FA4FF;
   /* -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #05d9e8;
   text-shadow: 2px 2px 2px #005678;
@@ -1048,10 +1050,22 @@ h1, h2, h3, h4, h5,
   
 }
 #team-section .subheading{
-  border-bottom: 2px solid #85ebd9;
+  border-bottom: 2px solid #fc2b17;
 }
 #team-section h3{
-  color: #fe00fe!important;
+  color: #fc2b17!important;
+}
+
+#contact-section .heading{
+  color: #85ebd9;
+  
+}
+#contact-section .subheading{
+  border-bottom: 2px solid #e2dddf;
+}
+
+.bg-light{
+  background-color: #000812!important;
 }
 
 .modal-footer .btn-register2{
@@ -1107,39 +1121,68 @@ h1, h2, h3, h4, h5,
   margin-top: 3rem!important;
 }
 
-.is-sticky #about-link:hover{
+.is-sticky #home-link:hover,
+.active#home-link-mobile{
+  color: #fd5949;
+}
+
+.is-sticky .active#home-link:after{
+  background-color:#fd5949;
+}
+
+.is-sticky #about-link:hover,
+.active#about-link-mobile{
   color: #E11940;
 }
 
 .active#about-link:after{
   background-color: #E11940;
 }
-.is-sticky #events-link:hover{
+.is-sticky #events-link:hover,
+.active#events-link-mobile{
   color: #fbf665;
 }
 
 .active#events-link:after{
   background-color: #fbf665;
 }
-.is-sticky #team-link:hover{
-  background-image: linear-gradient(45deg, #e2dddf, #b0acb0);
-  width: fit-content;
-  margin: 0 auto;
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent
+.is-sticky #team-link:hover,
+.active#team-link-mobile{
+  color: #2FA4FF;
 }
 
 .active#team-link:after{
-  background-color: #E11940;
+  background-color: #2FA4FF;
 }
-.is-sticky #contact-link:hover{
-  color: #E11940;
+
+.is-sticky #contact-link:hover,
+.active#contact-link-mobile{
+  color: #85ebd9;
 }
 
 .active#contact-link:after{
-  background-color: #E11940;
+  background-color: #85ebd9;
+}
+
+.modal-event-title{
+  font-family: 'Cyberpunk Is Not Dead', sans-serif;
+  font-weight: 200!important;
+}
+
+@media (max-width: 593px){
+  .sticky-wrapper.is-sticky .site-navbar {
+    background-image: linear-gradient(90deg, rgba(255,255,255,1) 3%, rgba(255,254,165,1) 18%, rgba(243,115,74,1) 31%, rgba(7,0,30,1) 49%, rgba(0, 8, 18,1) 51%, rgba(3,3,6,1) 86%,rgba(3,3,6,1) 97%);
+  }
+}
+
+@media (max-width: 450px){
+  .sticky-wrapper.is-sticky .site-navbar {
+    background-image: linear-gradient(90deg, rgba(255,255,255,1) 3%, rgba(255,254,165,1) 24%, rgba(243,115,74,1) 37%, rgba(7,0,30,1) 50%, rgba(0, 8, 18,1) 57%, rgba(3,3,6,1) 86%,rgba(3,3,6,1) 97%);
+  }
+}
+
+@media (max-width: 354px){
+  .sticky-wrapper.is-sticky .site-navbar {
+    background-image: linear-gradient(90deg, rgba(255,255,255,1) 3%, rgba(255,254,165,1) 26%, rgba(243,115,74,1) 37%, rgba(7,0,30,1) 50%, rgba(0, 8, 18,1) 57%, rgba(3,3,6,1) 86%,rgba(3,3,6,1) 97%);
+  }
 }
