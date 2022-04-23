@@ -333,7 +333,8 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase; }
   .site-logo a {
     color: #fff; }
-    .site-logo a img {
+    .site-logo a img,
+    .is-sticky .site-logo a img {
       height: 33px;
     }
     .sticky-wrapper.is-sticky .site-logo a img{
