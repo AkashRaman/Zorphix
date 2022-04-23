@@ -226,7 +226,7 @@
 /* No media query since the extra-large breakpoint has no upper bound on its width */
 
 .ftco-feature-1 {
-    height: 90%;
+    height: 104%;
 }
 
 @media (min-width: 992px){

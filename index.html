@@ -22,7 +22,8 @@
 
   <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
-  
+  <link href="http://fonts.cdnfonts.com/css/cyberpunk-is-not-dead" rel="stylesheet">
+
   <link href="https://unpkg.com/nanogallery2@2.4.1/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
   
   
@@ -85,14 +86,14 @@
           <div class="ml-auto">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li><a href="#about-section" class="nav-link">About</a></li>
-                <li><a href="#events-section" class="nav-link">Events</a></li>
-                <li><a href="#team-section" class="nav-link">Team</a></li>
+                <li><a href="#home-section" class="nav-link" id="home-link">Home</a></li>
+                <li><a href="#about-section" class="nav-link" id="about-link">About</a></li>
+                <li><a href="#events-section" class="nav-link" id="events-link">Events</a></li>
+                <li><a href="#team-section" class="nav-link" id="team-link">Team</a></li>
                 <!--
                 <li><a href="#trainer-section" class="nav-link">Trainers</a></li>
                 <li><a href="#gallery-section" class="nav-link">Gallery</a></li>-->
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                <li><a href="#contact-section" class="nav-link" id="team-link">Contact</a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle float-right"><span
@@ -155,9 +156,9 @@
               </div>
             </div>
             <div class="row m-3 mb-5">
-              <div class="col-lg-6 col-md-8 mobile-box" data-aos="fade-right" data-aos-delay="100">
+              <div class="col-lg-6 col-md-8 mobile-box borderRight" data-aos="fade-right" data-aos-delay="100">
                 <h3 class="center">Turf Rabonna</h3>
-                <p class="borderRight">Launched in May 2019 by Mrs. Lavanya Murali, it is one of the biggest turfs in Chennai.
+                <p>Launched in May 2019 by Mrs. Lavanya Murali, it is one of the biggest turfs in Chennai.
                   We have tied up with AMRFC to focus on grassroot level development in Football.
                 </p>
               </div>
@@ -166,9 +167,9 @@
               </div>
             </div>
             <div class="row m-3 mb-3">
-              <div class="col-lg-6 col-md-8 order-md-2 mobile-box" data-aos="fade-left" data-aos-delay="100">
-                <h3 class="center floatRight">AMRFC</h3>
-                <p  class="borderLeft floatRight">Established in 2015, November 9 by Mr. Murali Sankar, a former Paris saint-German Futbo'l Technical coach From a professional football player to a passionate mentor, his dream has always been to bring the youth of india to the international football stage.</p>
+              <div class="col-lg-6 col-md-8 order-md-2 mobile-box borderLeft" data-aos="fade-left" data-aos-delay="100">
+                <h3 class="center">AMRFC</h3>
+                <p>Established in 2015, November 9 by Mr. Murali Sankar, a former Paris saint-German Futbo'l Technical coach From a professional football player to a passionate mentor, his dream has always been to bring the youth of india to the international football stage.</p>
               </div>
               <div class="col-lg-6 col-md-8 order-md-1 mobile-box" data-aos="fade-right" data-aos-delay="200">
                 <img src="images/about-turf2.jpg" width="100%" alt="Turf Rabonna">
@@ -224,6 +225,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <a href="#"class="btn btn-modal" data-event-id = "technicalEvent1" data-toggle="modal" data-target="#exampleModal">More</a>
+            <a href="#" class="btn btn-register">Register</a>
           </div>
         </div>
         <div class="col-lg-4 mb-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -234,6 +236,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <a href="#" class="btn btn-modal" data-event-id = "technicalEvent2" data-toggle="modal" data-target="#exampleModal">More</a>
+            <a href="#" class="btn btn-register">Register</a>
           </div>
         </div>
         <div class="col-lg-4 mb-4 col-md-6 mobile-box" data-aos="fade-up" data-aos-delay="200">
@@ -244,10 +247,11 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <a href="#" class="btn btn-modal" data-event-id = "technicalEvent3" data-toggle="modal" data-target="#exampleModal">More</a>
+            <a href="#" class="btn btn-register">Register</a>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
+      <div class="row justify-content-center text-center mb-5 event-subtitle" data-aos="fade-up">
         <div class="col-md-8  section-heading">
           <span class="subheading">Non-Technical Events</span>
         </div>
@@ -261,6 +265,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <a href="#" class="btn btn-modal" data-event-id = "nonTechnicalEvent1" data-toggle="modal" data-target="#exampleModal">More</a>
+            <a href="#" class="btn btn-register">Register</a>
           </div>
         </div>
 
@@ -272,6 +277,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <a href="#" class="btn btn-modal" data-event-id = "nonTechnicalEvent2" data-toggle="modal" data-target="#exampleModal">More</a>  
+            <a href="#" class="btn btn-register">Register</a>
           </div>
         </div>
 
@@ -283,11 +289,12 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <a href="#" class="btn btn-modal" data-event-id = "nonTechnicalEvent3" data-toggle="modal" data-target="#exampleModal">More</a>    
+            <a href="#" class="btn btn-register">Register</a>
           </div>
         </div>
         
       </div>
-      <div class="row justify-content-center text-center mb-5" data-aos="fade-up">
+      <div class="row justify-content-center text-center mb-5 event-subtitle" data-aos="fade-up">
         <div class="col-md-8  section-heading">
           <span class="subheading">Business Events</span>
         </div>
@@ -302,6 +309,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <a href="#" class="btn btn-modal" data-event-id = "businessEvent1" data-toggle="modal" data-target="#exampleModal">More</a>
+            <a href="#" class="btn btn-register">Register</a>
           </div>
         </div>
 
@@ -313,6 +321,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <a href="#" class="btn btn-modal" data-event-id = "businessEvent2" data-toggle="modal" data-target="#exampleModal">More</a>
+            <a href="#" class="btn btn-register">Register</a>
           </div>
         </div> 
         
@@ -324,6 +333,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <a href="#" class="btn btn-modal" data-event-id = "businessEvent3" data-toggle="modal" data-target="#exampleModal">More</a>
+            <a href="#" class="btn btn-register">Register</a>
           </div>
         </div>
       </div>
@@ -812,7 +822,9 @@
           </div>
         </div>
         <div class="modal-footer">
+          <a href="#" class="btn btn-register2">Register</a>
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
           <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
         </div>
       </div>
@@ -824,7 +836,7 @@
     <div class="container">
       <div class="row m-3">
         <div class="col-md-4 mb-5">
-          <h3 class="text-white">About Rabonna</h3>
+          <h3 class="text-white">About Zorphix</h3>
           <p class="text-white">We are a group of passionate people who want to develop football from the grassroot level in India. Get in touch with us and join us on our quest!</p>
         </div>
 
@@ -834,10 +846,7 @@
             <li><a href="#home-section">Home</a></li>
                 <li><a href="#about-section" >About</a></li>
                 <li><a href="#events-section">Events</a></li>
-                <li><a href="#team-section" >team</a></li>
-                <li><a href="#classes-section">Classes</a></li>
-                <li><a href="#trainer-section">Trainers</a></li>
-                <li><a href="#gallery-section">Gallery</a></li>
+                <li><a href="#team-section" >Team</a></li>
                 <li><a href="#contact-section">Contact</a></li>
           </ul>
         </div>
@@ -1089,6 +1098,25 @@
     },
     "businessEvent2": {
       "title": "businessEvent2",
+      "preText": "",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "imageURL": "https://media.gqindia.com/wp-content/uploads/2018/01/Silambam-866x956.jpg",
+      "team": `
+      <div class="row">
+        <div class="col-lg-3 mb-4 mb-lg-4 col-md-6 text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="person">
+            <img src="images/placeholder.jpg" alt="Image" class="img-fluid">
+            <h3>Shanmugapriya S</h3>
+            <p class="position">Organizer</p>
+            <p>
+              <!-- About -->
+            </p>
+          </div>
+        </div>
+      </div>`
+    },
+    "businessEvent3": {
+      "title": "businessEvent3",
       "preText": "",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "imageURL": "https://media.gqindia.com/wp-content/uploads/2018/01/Silambam-866x956.jpg",
