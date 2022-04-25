@@ -214,6 +214,16 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+
+    .mobile-box{
+        margin: 0 auto!important;
+    }
+
+    .mobile-box-hide{
+        flex: 0!important;
+        padding: 0!important;
+    }
+
     .align-items-left{
         margin-left: auto!important;
     }
@@ -227,6 +237,7 @@
     }
 
     #mobile-header-btn{
+        padding-top: 0!important;
         position: absolute;
         top: 12vh;
         left:0;
@@ -273,18 +284,6 @@ body{
     padding: 10px 20px;
 }
 
-
-@media only screen and (max-width: 992px) {
-    .mobile-box{
-        margin: 0 auto!important;
-    }
-
-    .mobile-box-hide{
-        flex: 0!important;
-        padding: 0!important;
-    }
-}
-
 @media screen and (max-width: 425px) {
     .landing-page-logo {
         height: 100px;
@@ -314,7 +313,7 @@ body{
     }
     #mobile-header-box{
         position: absolute;
-        top: -30vh;
+        top: -28vh;
         left:0;
         right:0;
         margin-left:auto;

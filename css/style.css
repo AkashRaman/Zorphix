@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5,
   display: none;
   -webkit-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
-  background: rgba(0, 0, 0, 0.6);
+  background-color: #000812;
   content: "";
   position: absolute;
   z-index: 2000;
@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5,
 .btn-modal {
     font-size: 18px;
     background-color: #fbf665;
+    color: #fd5949;
     border-radius: 4px;
     margin-bottom: 82px;
     padding: 5px 10px;
@@ -1166,8 +1167,7 @@ h1, h2, h3, h4, h5,
 }
 
 .modal-event-title{
-  font-family: 'Cyberpunk Is Not Dead', sans-serif;
-  font-weight: 200!important;
+  color: #fbf665;
 }
 
 @media (max-width: 593px){
@@ -1202,3 +1202,37 @@ h1, h2, h3, h4, h5,
   margin-left: 0!important;
 }
 
+#mobile-header-btn{
+  padding-top: 10vh;
+}
+
+.class-item.mobileEffect p{
+  color: #fff;
+}
+.class-item.mobileEffect .btn-register{
+  background-color: #fbf665;
+  color: #fd5949;
+}
+.class-item.mobileEffect .btn-modal{
+  background-color: #fd5949;
+  color: #fbf665;
+}
+
+
+.modal-content{
+  background-color: #000812; 
+  border: 2px solid #fbf665;
+}
+
+.nav-pills .nav-link{
+  color: #fd5949;
+}
+
+.nav-pills .nav-link.active{
+  background-color: #fd5949;
+  color: #fff;
+}
+
+.person h3{
+  color: #fd5949!important;
+}
