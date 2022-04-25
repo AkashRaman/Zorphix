@@ -1197,6 +1197,13 @@ h1, h2, h3, h4, h5,
   z-index: 1;
   object-fit: cover;
 }
+/* 
+#myVideo2 {
+  width: 100vw;
+  z-index: 1;
+  position: fixed;
+  object-fit: cover;
+} */
 
 .align-items-left{
   margin-left: 0!important;
