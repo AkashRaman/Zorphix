@@ -1093,11 +1093,31 @@ h1, h2, h3, h4, h5,
     margin-left: -56px;
 }
 
+.btn-about{
+    font-size: 20px;
+    background-color: #E11940;
+    color: #73fffe;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px 0px;
+    width: 112px;
+    transform-origin: center;
+    transition: all 0.5s;
+}
+
+.btn-about.hover:hover{
+  color: #73fffe;
+  transform: scale(1.15);
+}
 
 .btn-register:hover {
   color: #fbf665;
 }
 
+.btn-register2:hover{
+  background-color: #ee1803
+}
 
 .borderRight p{
   border-right: 3px solid #E11940;
@@ -1209,8 +1229,12 @@ h1, h2, h3, h4, h5,
   margin-left: 0!important;
 }
 
+#mobile-header-box{
+  padding-top: 5vh;
+}
+
 #mobile-header-btn{
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 
 .mobileEffect p{
