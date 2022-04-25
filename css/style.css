@@ -1206,14 +1206,16 @@ h1, h2, h3, h4, h5,
   padding-top: 10vh;
 }
 
-.class-item .mobileEffect p{
+.mobileEffect p{
   color: #fff;
 }
-.class-item .mobileEffect .btn-register{
+
+.mobileEffect .btn-register{
   background-color: #fbf665;
   color: #fd5949;
 }
-.class-item .mobileEffect .btn-modal{
+
+.mobileEffect .btn-modal{
   background-color: #fd5949;
   color: #fbf665;
 }
