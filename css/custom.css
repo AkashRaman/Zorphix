@@ -5,7 +5,7 @@
 }
 
 .landing-page-logo {
-    max-width: 350px;
+    height: 7rem;
 }
 
 .landing-page-logo-wrapper {
@@ -154,7 +154,7 @@
 @media screen and (min-width: 376px) and (max-width: 407px) {
     #contact-section h3 { font-size: 1.70rem !important; }
 }
-
+/* 
 @media screen and (max-width: 575px) {
     .landing-page-logo {
         height: 150px;
@@ -169,7 +169,7 @@
  }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+/* @media (min-width: 768px) { 
     .landing-page-logo {
         height: 250px;
     }
@@ -182,14 +182,14 @@
     }
     
 }
-
+ */
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+/* @media (min-width: 992px) { 
     .landing-page-logo {
         height: 350px;
     }
-}
+} */ 
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -214,7 +214,26 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    .align-items-left{
+        margin-left: auto!important;
+    }
+    #mobile-header-box{
+        position: absolute;
+        top: -28vh;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
 
+    #mobile-header-btn{
+        position: absolute;
+        top: 12vh;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }
 
 /* Large devices (desktops, less than 1200px) */
@@ -270,12 +289,44 @@ body{
     .landing-page-logo {
         height: 100px;
     }
-    
+    #mobile-header-box{
+        position: absolute;
+        top: -33vh;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #mobile-header-btn{
+        position: absolute;
+        top: 4vh;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }
 
 @media screen and (max-width: 375px) {
     .landing-page-logo {
         height: 75px;
     }
-    
+    #mobile-header-box{
+        position: absolute;
+        top: -30vh;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #mobile-header-btn{
+        position: absolute;
+        top: 4vh;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }
