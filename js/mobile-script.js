@@ -200,9 +200,12 @@ $(document).ready(function() {
         
         $('.class-item').removeClass('hover');
         $('.ftco-feature-1').removeClass('hover');
-        
+        $('#about-right').removeClass('borderRight');
+        $('#about-left').removeClass('borderLeft');
     } else { 
         $('.class-item').addClass('hover');
         $('.ftco-feature-1').addClass('hover');
+        $('#about-right').addClass('borderRight');
+        $('#about-left').addClass('borderLeft');
     };
 });
