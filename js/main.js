@@ -290,5 +290,9 @@ jQuery(document).ready(function($) {
 });
 
 $(".event-box").hover(function(){
-	$(".btn-modal").css("color","#c9cf1f!important")
+	$(".btn-modal").css("color","#c9cf1f!important");
+	// $(".btn-modal").addClass('hoverEffect');
+	// $(".btn-register").addClass('hoverEffect');
+
 })
+

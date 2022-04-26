@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5,
 
 .btn-modal {
     font-size: 18px;
-    background-color: #fbf665;
+    background-color: rgba(0, 0, 0, 0);
     color: #fd5949;
     border-radius: 4px;
     margin-bottom: 82px;
@@ -1103,12 +1103,12 @@ h1, h2, h3, h4, h5,
     padding: 5px 0px;
     width: 112px;
     transform-origin: center;
-    transition: all 0.5s;
+    transition: all 0.1s;
 }
 
 .btn-about.hover:hover{
   color: #73fffe;
-  transform: scale(1.15);
+  transform: scale(1.05);
 }
 
 .btn-register:hover {
@@ -1143,17 +1143,19 @@ h1, h2, h3, h4, h5,
   margin-top: 3rem!important;
 }
 
-.is-sticky #home-link:hover,
-.active#home-link-mobile{
+#home-link:hover,
+.active#home-link-mobile,
+#home-link-mobile:active{
   color: #fd5949;
 }
 
-.is-sticky .active#home-link:after{
+.active#home-link:after{
   background-color:#fd5949;
 }
 
 .is-sticky #about-link:hover,
-.active#about-link-mobile{
+.active#about-link-mobile,
+#about-link-mobile:active{
   color: #E11940;
 }
 
@@ -1161,7 +1163,8 @@ h1, h2, h3, h4, h5,
   background-color: #E11940;
 }
 .is-sticky #events-link:hover,
-.active#events-link-mobile{
+.active#events-link-mobile,
+#events-link-mobile:active{
   color: #fbf665;
 }
 
@@ -1169,7 +1172,8 @@ h1, h2, h3, h4, h5,
   background-color: #fbf665;
 }
 .is-sticky #team-link:hover,
-.active#team-link-mobile{
+.active#team-link-mobile,
+#team-link-mobile:active{
   color: #2FA4FF;
 }
 
@@ -1178,7 +1182,8 @@ h1, h2, h3, h4, h5,
 }
 
 .is-sticky #contact-link:hover,
-.active#contact-link-mobile{
+.active#contact-link-mobile,
+#contact-link-mobile:active{
   color: #85ebd9;
 }
 
@@ -1241,13 +1246,15 @@ h1, h2, h3, h4, h5,
   color: #fff;
 }
 
-.mobileEffect .btn-register{
+.mobileEffect .btn-register,
+.class-item.hover:hover .btn-register{
   background-color: #fbf665;
   color: #fd5949;
 }
 
-.mobileEffect .btn-modal{
-  background-color: #fd5949;
+.mobileEffect .btn-modal,
+.class-item.hover:hover .btn-modal{
+  background-color: rgba(0, 0, 0, 0);;
   color: #fbf665;
 }
 
