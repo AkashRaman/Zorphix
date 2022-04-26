@@ -91,7 +91,19 @@ $(document).ready(function() {
             offset: "50%"
         });
         
-        $('#team-banner').waypoint(function(direction) {
+        $('#businessEvent3').waypoint(function(direction) {
+            if( direction == "down") {
+                $('#businessEvent3').addClass('mobileEffect');
+                $('#businessEvent2').removeClass('mobileEffect'); 
+            } else {
+                $('#businessEvent3').removeClass('mobileEffect'); 
+                $('#businessEvent2').addClass('mobileEffect'); 
+            }
+        }, {
+            offset: "50%"
+        });
+        
+        $('#team-section').waypoint(function(direction) {
             if( direction == "down") {
                 $('#businessEvent2').removeClass('mobileEffect'); 
             } else {
