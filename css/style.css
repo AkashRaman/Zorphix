@@ -1143,7 +1143,7 @@ h1, h2, h3, h4, h5,
   margin-top: 3rem!important;
 }
 
-#home-link:hover,
+.is-sticky #home-link:hover,
 .active#home-link-mobile,
 #home-link-mobile:active{
   color: #fd5949;
