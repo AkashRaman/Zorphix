@@ -107,7 +107,7 @@ $(document).ready(function() {
             if( direction == "down") {
                 $('#businessEvent3').removeClass('mobileEffect'); 
             } else {
-                $('#businessEvent2').addClass('mobileEffect'); 
+                $('#businessEvent3').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
