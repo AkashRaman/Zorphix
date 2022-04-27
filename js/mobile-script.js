@@ -2,33 +2,33 @@ $(document).ready(function() {
     var deviceWidth = $(window).width();
     var deviceHeight = $(window).height();
     if ( deviceWidth <= "767") {
-        $('#technicalEvent1').waypoint(function(direction) {
+        $('#xCoders').waypoint(function(direction) {
             if( direction == "down") {
-                $('#technicalEvent1').addClass('mobileEffect'); 
+                $('#xCoders').addClass('mobileEffect'); 
             } else {
-                $('#technicalEvent1').removeClass('mobileEffect'); 
+                $('#xCoders').removeClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
-        $('#technicalEvent2').waypoint(function(direction) {
+        $('#thesis-Precized').waypoint(function(direction) {
             if( direction == "down") {
-                $('#technicalEvent2').addClass('mobileEffect');
-                $('#technicalEvent1').removeClass('mobileEffect'); 
+                $('#thesis-Precized').addClass('mobileEffect');
+                $('#xCoders').removeClass('mobileEffect'); 
             } else {
-                $('#technicalEvent2').removeClass('mobileEffect'); 
-                $('#technicalEvent1').addClass('mobileEffect'); 
+                $('#thesis-Precized').removeClass('mobileEffect'); 
+                $('#xCoders').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
         });
-        $('#technicalEvent3').waypoint(function(direction) {
+        $('#plugs-out').waypoint(function(direction) {
             if( direction == "down") {
-                $('#technicalEvent3').addClass('mobileEffect');
-                $('#technicalEvent2').removeClass('mobileEffect'); 
+                $('#plugs-out').addClass('mobileEffect');
+                $('#thesis-Precized').removeClass('mobileEffect'); 
             } else {
-                $('#technicalEvent3').removeClass('mobileEffect'); 
-                $('#technicalEvent2').addClass('mobileEffect'); 
+                $('#plugs-out').removeClass('mobileEffect'); 
+                $('#thesis-Precized').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
@@ -36,10 +36,10 @@ $(document).ready(function() {
         $('# bgmiTournament').waypoint(function(direction) {
             if( direction == "down") {
                 $('# bgmiTournament').addClass('mobileEffect');
-                $('#technicalEvent3').removeClass('mobileEffect'); 
+                $('#plugs-out').removeClass('mobileEffect'); 
             } else {
                 $('# bgmiTournament').removeClass('mobileEffect'); 
-                $('#technicalEvent3').addClass('mobileEffect'); 
+                $('#plugs-out').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"

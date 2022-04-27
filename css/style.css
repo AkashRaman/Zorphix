@@ -1304,7 +1304,7 @@ h1, h2, h3, h4, h5,
   margin: 20px 0!important;
 }
 
-.modal-event-team{
+.event-1-box{
   padding-top: 1.5rem;
 }
 
@@ -1328,4 +1328,8 @@ h1, h2, h3, h4, h5,
 
 #date-text{
   color: #fff!important;
+}
+
+.modal-event-team{
+  padding-top: 3rem;
 }
