@@ -229,7 +229,7 @@
     }
     #mobile-header-box{
         position: absolute;
-        top: -28vh;
+        top: -25vh;
         left:0;
         right:0;
         margin-left:auto;
@@ -240,7 +240,7 @@
     #mobile-header-btn{
         padding-top: 0!important;
         position: absolute;
-        top: 12vh;
+        top: 15vh;
         left:0;
         right:0;
         margin-left:auto;
@@ -290,21 +290,7 @@ body{
         height: 100px;
     }
     #mobile-header-box{
-        position: absolute;
-        top: -33vh;
-        left:0;
-        right:0;
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-    #mobile-header-btn{
-        position: absolute;
-        top: 4vh;
-        left:0;
-        right:0;
-        margin-left:auto;
-        margin-right:auto;
+        top: -23vh;
     }
 }
 
@@ -313,20 +299,6 @@ body{
         height: 75px;
     }
     #mobile-header-box{
-        position: absolute;
-        top: -28vh;
-        left:0;
-        right:0;
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-    #mobile-header-btn{
-        position: absolute;
-        top: 4vh;
-        left:0;
-        right:0;
-        margin-left:auto;
-        margin-right:auto;
+        top: -20vh;
     }
 }
