@@ -33,13 +33,13 @@ $(document).ready(function() {
         }, {
             offset: "50%"
         });
-        $('# bgmiTournament').waypoint(function(direction) {
+        $('#bgmiTournament').waypoint(function(direction) {
             if( direction == "down") {
-                $('# bgmiTournament').addClass('mobileEffect');
-                $('#plugs-out').removeClass('mobileEffect'); 
+                $('#bgmiTournament').addClass('mobileEffect'); 
+                $('#plugs-out').removeClass('mobileEffect');
             } else {
-                $('# bgmiTournament').removeClass('mobileEffect'); 
-                $('#plugs-out').addClass('mobileEffect'); 
+                $('#bgmiTournament').removeClass('mobileEffect');
+                $('#plugs-out').addClass('mobileEffect');
             }
         }, {
             offset: "50%"
@@ -47,10 +47,10 @@ $(document).ready(function() {
         $('#pixellence').waypoint(function(direction) {
             if( direction == "down") {
                 $('#pixellence').addClass('mobileEffect');
-                $('# bgmiTournament').removeClass('mobileEffect'); 
+                $('#bgmiTournament').removeClass('mobileEffect'); 
             } else {
                 $('#pixellence').removeClass('mobileEffect'); 
-                $('# bgmiTournament').addClass('mobileEffect'); 
+                $('#bgmiTournament').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
@@ -68,11 +68,11 @@ $(document).ready(function() {
         });
         $('#fastnfrolic').waypoint(function(direction) {
             if( direction == "down") {
-                $('#fastnfrolic').addClass('mobileEffect');
-                $('#euphony').removeClass('mobileEffect'); 
+                $('#fastnfrolic').addClass('mobileEffect'); 
+                $('#euphony').removeClass('mobileEffect');
             } else {
                 $('#fastnfrolic').removeClass('mobileEffect'); 
-                $('#euphony').addClass('mobileEffect'); 
+                $('#euphony').addClass('mobileEffect');  
             }
         }, {
             offset: "50%"
