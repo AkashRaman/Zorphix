@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5,
 .btn-modal {
     font-size: 18px;
     background-color: rgba(0, 0, 0, 0);
-    color: #fd5949;
+    color: #2FA4FF;
     border-radius: 4px;
     margin-bottom: 82px;
     padding: 5px 10px;
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5,
 
 
 .btn-modal:hover {
-    color: #fd5949;
+    color: #2FA4FF;
 }
 
 .line-height-1 {
@@ -636,9 +636,9 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         text-decoration: none !important; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover {
-          color: #fd5949 ; }
+          color: #2FA4FF ; }
         .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active:after {
-          background: #fd5949; }
+          background: #2FA4FF; }
   .sticky-wrapper .shrink {
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
@@ -826,7 +826,7 @@ h1, h2, h3, h4, h5,
   overflow: hidden;
   margin-bottom: 30px;
   position: relative;
-  background-color: #fbf665;
+  background-color: #fff;
   -webkit-transition: .3s all ease;
   transition: .3s all ease;
   z-index: 1; }
@@ -864,7 +864,7 @@ h1, h2, h3, h4, h5,
     }
   .class-item.hover:hover {
     z-index: 2;
-    background: #fd5949 ; }
+    background: #2FA4FF ; }
     .class-item.hover:hover h2{
       transition: all 0.3s;
     }
@@ -1005,7 +1005,7 @@ h1, h2, h3, h4, h5,
 /* hovers */
 
 .mobileEffect {
-    background-color: #fd5949!important;
+    background-color: #2FA4FF!important;
     color: #ffffff;
 }
 
@@ -1038,14 +1038,14 @@ h1, h2, h3, h4, h5,
 
 #events-section .heading{
   font-size: 2rem;
-  color: #fd5949;
+  color: #2FA4FF;
   /* background: linear-gradient(90deg, rgba(7,0,30,1) 0%, rgba(225,25,64,1) 32%, rgba(27,2,33,1) 64%); */
 }
 #events-section h3{
-  color: #fd5949!important;
+  color: #2FA4FF!important;
 }
 #events-section .subheading{
-  border-bottom: 2px solid #fd5949;
+  border-bottom: 2px solid #2FA4FF;
 }
 
 #team-section .heading{
@@ -1078,7 +1078,7 @@ h1, h2, h3, h4, h5,
 .modal-footer .btn-register2{
   position: absolute;
   left: 1rem;
-  background-color: #fd5949;
+  background-color: #2FA4FF;
   color: #fff;
   border-radius: 4px;
   padding: 5px 10px;
@@ -1086,8 +1086,8 @@ h1, h2, h3, h4, h5,
 
 .btn-register{
   font-size: 18px;
-    background-color: #fd5949;
-    color: #fbf665;
+    background-color: #2FA4FF;
+    color: #fff;
     border-radius: 4px;
     margin-bottom: 30px;
     padding: 5px 0px;
@@ -1116,7 +1116,7 @@ h1, h2, h3, h4, h5,
 }
 
 .btn-register:hover {
-  color: #fbf665;
+  color: #fff;
 }
 
 .btn-register2:hover{
@@ -1163,11 +1163,11 @@ h1, h2, h3, h4, h5,
 .is-sticky #home-link:hover,
 .active#home-link-mobile,
 #home-link-mobile:active{
-  color: #fd5949;
+  color: #2FA4FF;
 }
 
 .active#home-link:after{
-  background-color:#fd5949;
+  background-color:#2FA4FF;
 }
 
 .is-sticky #about-link:hover,
@@ -1182,11 +1182,11 @@ h1, h2, h3, h4, h5,
 .is-sticky #events-link:hover,
 .active#events-link-mobile,
 #events-link-mobile:active{
-  color: #fbf665;
+  color: #fff;
 }
 
 .active#events-link:after{
-  background-color: #fbf665;
+  background-color: #fff;
 }
 .is-sticky #team-link:hover,
 .active#team-link-mobile,
@@ -1209,7 +1209,7 @@ h1, h2, h3, h4, h5,
 }
 
 .modal-event-title{
-  color: #fbf665;
+  color: #fff;
   width: fit-content;
   margin: 0 auto!important;
 }
@@ -1267,33 +1267,33 @@ h1, h2, h3, h4, h5,
 
 .mobileEffect .btn-register,
 .class-item.hover:hover .btn-register{
-  background-color: #fbf665;
-  color: #fd5949;
+  background-color: #fff;
+  color: #2FA4FF;
 }
 
 .mobileEffect .btn-modal,
 .class-item.hover:hover .btn-modal{
   background-color: rgba(0, 0, 0, 0);;
-  color: #fbf665;
+  color: #fff;
 }
 
 
 .modal-content{
   background-color: #000812; 
-  border: 2px solid #fbf665;
+  border: 2px solid #fff;
 }
 
 .nav-pills .nav-link{
-  color: #fd5949;
+  color: #2FA4FF;
 }
 
 .nav-pills .nav-link.active{
-  background-color: #fd5949;
+  background-color: #2FA4FF;
   color: #fff;
 }
 
 .person h3{
-  color: #fd5949!important;
+  color: #fc2b17!important;
 }
 
 #pills-about{
