@@ -1076,9 +1076,12 @@ h1, h2, h3, h4, h5,
   background-color: #000812!important;
 }
 
-.modal-footer .btn-register2{
+.reg-link{
   position: absolute;
   left: 1rem;
+}
+
+.modal-footer .btn-register2{
   background-color: #2FA4FF;
   color: #fff;
   border-radius: 4px;
@@ -1121,7 +1124,7 @@ h1, h2, h3, h4, h5,
 }
 
 .btn-register2:hover{
-  background-color: #ee1803
+  background-color: #0084ea;
 }
 
 
@@ -1340,10 +1343,10 @@ h1, h2, h3, h4, h5,
 }
 
 .sl-1{
-  
+  margin-bottom: 25px;
 }
 
-.sl-2,
-.sl-3{
+.sl-3,
+.sl-4{
   width: 50%;
 }

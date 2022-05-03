@@ -33,12 +33,12 @@ $(document).ready(function() {
         }, {
             offset: "50%"
         });
-        $('#bgmiTournament').waypoint(function(direction) {
+        $('#rampage').waypoint(function(direction) {
             if( direction == "down") {
-                $('#bgmiTournament').addClass('mobileEffect'); 
+                $('#rampage').addClass('mobileEffect'); 
                 $('#plugs-out').removeClass('mobileEffect');
             } else {
-                $('#bgmiTournament').removeClass('mobileEffect');
+                $('#rampage').removeClass('mobileEffect');
                 $('#plugs-out').addClass('mobileEffect');
             }
         }, {
@@ -47,10 +47,10 @@ $(document).ready(function() {
         $('#pixellence').waypoint(function(direction) {
             if( direction == "down") {
                 $('#pixellence').addClass('mobileEffect');
-                $('#bgmiTournament').removeClass('mobileEffect'); 
+                $('#rampage').removeClass('mobileEffect'); 
             } else {
                 $('#pixellence').removeClass('mobileEffect'); 
-                $('#bgmiTournament').addClass('mobileEffect'); 
+                $('#rampage').addClass('mobileEffect'); 
             }
         }, {
             offset: "50%"
