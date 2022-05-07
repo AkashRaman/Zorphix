@@ -1,6 +1,39 @@
 $(document).ready(function() {
     var deviceWidth = $(window).width();
     var deviceHeight = $(window).height();
+    if ( deviceWidth > "767") {
+        $('#sponsor-section').waypoint(function(direction) {
+            if( direction == "down") {
+                $('html').addClass('sponsorScroll'); 
+            } else {
+                $('html').removeClass('sponsorScroll'); 
+            }
+        }, {
+            offset: "50%"
+        });
+        $('#events-section').waypoint(function(direction) {
+            if( direction == "down") {
+                $('html').addClass('eventsScroll');
+                $('html').removeClass('sponsorScroll'); 
+            } else {
+                $('html').addClass('sponsorScroll'); 
+                $('html').removeClass('eventsScroll'); 
+            }
+        }, {
+            offset: "50%"
+        });
+        $('#team-section').waypoint(function(direction) {
+            if( direction == "down") {
+                $('html').addClass('teamScroll');
+                $('html').removeClass('eventsScroll'); 
+            } else {
+                $('html').addClass('eventsScroll'); 
+                $('html').removeClass('teamScroll'); 
+            }
+        }, {
+            offset: "50%"
+        });
+    }
     if ( deviceWidth <= "767") {
         $('#xCoders').waypoint(function(direction) {
             if( direction == "down") {
